@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Page</title>
+</head>
+<body>
+    <form action ="index.php" method="post" enctype="multipart/form-data">
+        <table border="3" align="center">
+            <tr>
+                <td colspan="2" align="center">Student Registration</td>
+            </tr>
+            <tr>
+                <td>Full Name</td>
+                <td><input type="text" name="fname" required></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="email" required></td>
+            </tr>
+            <tr>    
+                <td>Gender</td>
+                <td><input type="radio" name="gender" value="male">male<br>
+                <input type="radio" name="gender" value="female">female</td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" name="submit" value="submit">
+                </td>
+            </tr>
+
+        </table>
+
+    </form> 
+</body>
+</html>
